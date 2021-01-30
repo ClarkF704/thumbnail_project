@@ -4,17 +4,17 @@ import {Link} from 'react-router-dom'
 const Product = ({product}) => {
     return (
         <div className="card">
-            <Link to={`/product/${product._id}`}>
-                <img src={product.image}></img>
+            <Link to={`/product/${product.ProductID}`}>
+                <img src={product.PhotoName}></img>
             </Link>
             <div className="card-body">
-            <Link to={`/product/${product._id}`}>
+            <Link to={`/product/${product.ProductID}`}>
                 <div className="card-title">
-                    <strong>{product.name}</strong>
+                    <strong>{product.ItemName}</strong>
                 </div>
             </Link>
                 <div className="card-text">
-                    <p>${product.price}</p>
+                    <p>${product.BasePrice}</p>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import products from '../products'
+import items from '../items'
 import Product from '../components/Product'
 
 const HomeScreen = () => {
@@ -7,7 +7,7 @@ const HomeScreen = () => {
         <>
             <h1>Latest Products</h1>
             <div className="row">
-                {products.map(product => (
+                {items.map(product => (
                     <div className="col">
                         <Product product={product} />
                     </div>
