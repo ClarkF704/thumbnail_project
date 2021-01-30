@@ -126,3 +126,34 @@ body{
   margin-right:10px
   
 }
+/* Responsiveness Phones*/
+@media only screen and (max-width: 600px) {
+  .product-screen{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  .sidenav{
+    float:left;
+    position: absolute;
+    bottom: 0;
+    top:950px;
+  }
+  .item-detail{
+    position: relative;
+    right:90px;
+  }
+  .latest-header{
+    margin-left: 10px;
+  }
+  .row-hs{
+    margin-left:0px;
+  }
+  .img-component{
+    width: 100px;
+    height:100px;
+  }
+  .card{
+    width:180px;
+    height:250px;
+  }
+}

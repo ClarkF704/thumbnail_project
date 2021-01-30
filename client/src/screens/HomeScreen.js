@@ -10,7 +10,7 @@ const HomeScreen = () => {
             <h1 className="latest-header">Latest Products</h1>
             <div className="row-hs">
                 {items.map(product => (
-                    <div className="col">
+                    <div className="col-prod">
                         <Product product={product} />
                     </div>
                 ))}
