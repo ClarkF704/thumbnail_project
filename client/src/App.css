@@ -1,11 +1,39 @@
 
-.card-container{
-  position: relative;
-  width: 320px;
-  height:400px;
-  background-color: gray;
-  border-radius: 20px;
-  overflow: hidden;
-
-
+body{
+  background-color: antiquewhite;
+}
+.img-component{
+  width: 300px;
+  height: 300px;
+  clip-path: inset(2% 2% 2% 2%);
+  border:0;
+}
+.card {
+  float:left;
+  margin:20px;
+  padding-top:10px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.product-com-price{
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+}
+.card-title{
+  text-align:center;
+  text-decoration:none;
+}
+.card-title-specific{
+  text-decoration:none;
+  font-family: 'Nunito Sans', sans-serif;
+  color:black
+}
+.latest-header{
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left:150px;
+}
+.row-hs{
+  margin-left: 150px;
 }
