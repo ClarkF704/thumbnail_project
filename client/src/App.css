@@ -1,0 +1,11 @@
+
+.card-container{
+  position: relative;
+  width: 320px;
+  height:400px;
+  background-color: gray;
+  border-radius: 20px;
+  overflow: hidden;
+
+
+}
