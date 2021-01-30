@@ -8,6 +8,7 @@
 # stuff i dont want 
 /public/images
 /src/products.js
+/src/items.js
 
 # testing
 /coverage

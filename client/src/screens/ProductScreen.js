@@ -1,7 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import items from '../items'
+import itemsJson from '../items.json'
 
+const items = itemsJson.items
 const ProductScreen = ({match}) => {
     const product = items.find(p => p.ProductID == match.params.id);
     console.log(match.params.id)

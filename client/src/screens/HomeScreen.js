@@ -1,8 +1,9 @@
 import React from 'react'
-import items from '../items'
+import itemsJson from '../items.json'
 import Product from '../components/Product'
 import '../App.css'
 
+const items = itemsJson.items
 const HomeScreen = () => {
     return (
         <>
