@@ -126,7 +126,80 @@ body{
   margin-right:10px
   
 }
+@media only screen and (max-width: 1173px){
+  .product-screen{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  .sidenav{
+    float:left;
+    position: absolute;
+    bottom: 0;
+    top:500px;
+    right:20px
+  }
+  .item-detail{
+    position: relative;
+    right:30px;
+  }
+  .latest-header{
+    margin-left: 10px;
+  }
+  .row-hs{
+    margin-left:0px;
+  }
+  .img-component{
+    width: 100px;
+    height:100px;
+    padding-left: 40px;
+    /* clip left side of photo */
+    clip-path: inset(2px 2px 2px 42px);
+  }
+  .card{
+    width:180px;
+    height:250px;
+  }
+}
 /* Responsiveness Phones*/
+@media only screen and (max-width: 360px){
+  .sidenav{
+    top: 1000px;
+  }
+  .product-page-img{
+    height:200px;
+    width:200px;
+  }
+  .sidenav{
+    width:150px;
+    height:250px;
+  }
+  
+}
+@media only screen and (max-width:628px){
+  .sidenav{
+    float:left;
+    position: absolute;
+    bottom: 0;
+    top:950px;
+  }
+}
+@media only screen and (max-width:792px){
+  .sidenav{
+    float:left;
+    position: absolute;
+    bottom: 0;
+    top:600px;
+  }
+}
+@media only screen and (max-width:360px) {
+  .product-screen-item-name{
+    float:left;
+
+  }
+  .product-page-img{
+    margin-top:30px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .product-screen{
     padding-left:10px;
